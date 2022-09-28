@@ -1,6 +1,9 @@
+/* A preprocessor directive. It tells the compiler to include the contents of the file `stdio.h` in the
+program before compiling. */
 #include <stdio.h>
 // #include <conio.h> for Turbo C++
 
+/* `void main()` is the main function of the program. It is the starting point of the program. */
 void main()
 {
     //Input Part
