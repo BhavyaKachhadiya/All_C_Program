@@ -10,52 +10,52 @@ void main ()
 
     if (a==1)
     {
-        printf("Jan");
+        printf("31 Days");
     }
     else if(a==2)
     {
-        printf("Feb");
+        printf("28/29 Days");
     }
     
     else if(a==3)
     {
-        printf("Mar");
+        printf("31 Days");
     }
     else if(a==4)
     {
-        printf("Apirl");
+        printf("30 Days");
     }
     else if(a==5)
     {
-        printf("May");
+        printf("31 Days");
     }
     else if(a==6)
     {
-        printf("June");
+        printf("30 Days");
     }
     else if(a==7)
     {
-        printf("July");
+        printf("31 Days");
     }
     else if(a==8)
     {
-        printf("Aug");
+        printf("31 Days");
     }
     else if(a==9)
     {
-        printf("Sep");
+        printf("30 Days");
     }
     else if(a==10)
     {
-        printf("Oct");
+        printf("31 Days");
     }
     else if(a==11)
     {
-        printf("Nov");
+        printf("30 Days");
     }
     else if(a==12)
     {
-        printf("Dec");
+        printf("31 Days");
     }
     else
     {
