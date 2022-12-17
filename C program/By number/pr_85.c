@@ -1,25 +1,20 @@
-// Write a C program to find sum of all natural numbers between 1 to n. – Using
-// while loop.
-
 #include <stdio.h>
 
 void main()
 {
-    int i, end;
+    int i, n, sum=0;
 
-    /*
-     * Input a number from user
-     */
-    printf("Print all natural numbers from 1 to : ");
-    scanf("%d", &end);
+    /* Input upper limit from user */
+    printf("Enter upper limit: ");
+    scanf("%d", &n);
 
-    /*
-     * Print natural numbers from 1 to end
-     */
-    i=1;
-    while(i<=end)
+    /* Find sum of all numbers */
+    for(i=1; i<=n; i++)
     {
-        printf("%d\n", i);
-        i++;
+        sum += i;
     }
+
+    printf("Sum of first %d natural numbers = %d", n, sum);
+
+
 }

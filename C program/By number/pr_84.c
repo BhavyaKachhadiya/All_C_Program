@@ -3,16 +3,14 @@
 void main()
 {
 	int i;
-	int n;
+
 
 	i=1;
 
-	printf("Enter the value of N: ");
-	scanf("%d",&n);
 
-	printf("Odd Numbers from 1 to %d:\n",n);
+	printf("Even Numbers from 1 to 100:\n");
 
-	while(i<=n)
+	while(i<=100)
 	{
 		if(i%2 == 0)
 			printf("%d ",i);

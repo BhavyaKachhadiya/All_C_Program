@@ -1,31 +1,19 @@
-// Write a C program to find sum of all even numbers between 1 to n. – Using while
-// loop.
-
 #include <stdio.h>
 
-void main()
+int main()
 {
-    int i, n;
-  
-    // Input upper limit of even number from user
-    printf("Print all even numbers till: ");
+    int i, n, sum=0;
+
+    /* Input range to find sum of odd numbers */
+    printf("Enter upper limit: ");
     scanf("%d", &n);
 
-    printf("All even numbers from 1 to %d are: \n", n);
-
-    /*
-     * Starts loop counter from 1, increments by 1 till i<=n
-     */
-    i=1;
-    while(i<=n)
+    /* Find the sum of all odd number */
+    for(i=1; i<=n; i+=2)
     {
-        /* Check even condition before printing */
-        if(i%2==0)
-        {
-            printf("%d\n", i);
-        }
-
-        i++;
+        sum += i;
     }
+
+    printf("Sum of odd numbers = %d", sum);
 
 }
